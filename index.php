@@ -71,9 +71,9 @@ CLASS Elang{
 
 $Elang = new Elang;
 $Elang->nama ="Oby";
-$Elang->jlh_kaki ="4";
+$Elang->jlh_kaki ="2";
 $Elang->bisa_terbang ="tidak";
-$Elang->suara ="Guk...Guk...Guk";
+$Elang->suara ="mipp...";
 
 echo "Elang <br>";
 echo "Nama : $Elang->nama";
