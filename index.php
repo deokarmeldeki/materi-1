@@ -1,22 +1,23 @@
 <?php
+	echo "ANIMAL <hr>";
 
-	class Mobil {
-		public $merk, $tipe, $mesin, $max_speed;
+	CLASS Angsa{
+		public $nama, $jlh_kaki, $bisa_terbang, $suara;
 
-		public function cetakTipe(){
-			return $this->tipe;
-		}
-		function kecepatanMaksimal(){
-			return "Kecepatan Maksimal Mobil ini adalah".$this->max_speed;
-		}
 	}
 
-$bmw = new Mobil;
-$bmw->merk ="BMW";
-$bmw->tipe ="0364";
-$bmw->mesin ="2000cc";
-$bmw->max_speed ="500km/h";
+$Angsa = new Angsa;
+$Angsa->nama ="Nana";
+$Angsa->jlh_kaki ="2";
+$Angsa->bisa_terbang ="tidak";
+$Angsa->suara ="kwwaakk";
 
-echo "Tipe".$bmw->cetakTipe();
+echo "Angsa <br>";
+echo "Nama : $Angsa->nama";
 echo "<br>";
-echo " ".$bmw->kecepatanMaksimal();
+echo "Jumlah Kaki : $Angsa->jlh_kaki";
+echo "<br>";
+echo "Bisa Terbang : $Angsa->bisa_terbang";
+echo "<br>";
+echo "Suara : $Angsa->suara";
+echo "<hr>";
